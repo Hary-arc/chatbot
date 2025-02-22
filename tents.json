@@ -1,0 +1,24 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hello", "hi", "hey", "howdy", "good morning", "good evening"],
+        "responses": ["Hello!", "Hi there!", "How can I assist you today?", "Good day!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you", "take care"],
+        "responses": ["Goodbye!", "Take care!", "See you soon!"]
+      },
+      {
+        "tag": "symptom_inquiry",
+        "patterns": ["What is fever?", "What are the symptoms of cold?", "What is hypertension?"],
+        "responses": [
+          "Fever is typically a sign of infection. Common symptoms include high body temperature, chills, and sweating.",
+          "Cold symptoms include a runny nose, cough, sore throat, and sneezing.",
+          "Hypertension, also known as high blood pressure, often has no symptoms but can cause severe health problems."
+        ]
+      }
+    ]
+  }
+  

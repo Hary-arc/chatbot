@@ -1,2 +1,9 @@
 streamlit
-openai
+portaudio19-dev
+python3-dev
+SpeechRecognition
+PyAudio
+transformers
+tensorflow
+nltk
+tf-keras
